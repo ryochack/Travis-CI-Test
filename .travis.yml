@@ -4,5 +4,5 @@ compiler:
   - clang
   - gcc
 
-script: cc test.c
+script: cc -c test.c -o test.o
 
